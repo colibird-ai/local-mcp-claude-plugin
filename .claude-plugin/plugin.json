@@ -1,6 +1,6 @@
 {
   "name": "local-mcp",
-  "description": "Connect Claude Code to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion and 235 macOS tools. All data stays on your Mac — no cloud, no tokens, no API keys.",
+  "description": "Connect Claude Code to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion and more on your Mac (192+ tools) or Windows PC. Tools run on your computer — no tokens, no API keys.",
   "version": "1.1.0",
   "author": {
     "name": "Local MCP",

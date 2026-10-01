@@ -1,9 +1,9 @@
 # LMCP — Claude Code Plugin
 
-> Give Claude Code native access to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion, Notes, OmniFocus and 235 tools. All data stays on your machine.
+> Give Claude Code native access to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion, Notes, OmniFocus and more — 192+ tools that run on your computer.
 
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
-[![platform](https://img.shields.io/badge/platform-macOS-blue)](https://local-mcp.com)
+[![platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-blue)](https://local-mcp.com)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
 ---
@@ -62,7 +62,8 @@ curl -fsSL https://local-mcp.com/install | bash
 | **Google Drive** | List, read, write, search files |
 | **Notion** | Search, read, list pages and databases |
 
-235 tools total.
+192+ tools on macOS. Windows has a subset: the Apple-native ones (Mail, Calendar, Contacts,
+Reminders, Notes, Messages, Finder, Safari, OmniFocus) exist only on macOS.
 
 ---
 
@@ -94,18 +95,16 @@ Create a new Apple Note with a summary of what we discussed today
 
 ## Privacy
 
-All data stays on your machine. No cloud servers process your emails, files, or messages. The only network requests are:
-- License validation to `local-mcp.com`
-- Cloud Relay tunnel (optional, encrypted, only if you enable it)
-
-GDPR and CCPA compliant by architecture.
+Tools run on your computer, and there are no API keys or tokens to manage. LMCP does not make
+your AI provider local: the assistant you use receives the content you ask it to read, under its
+own terms. Connecting a browser-based assistant (claude.ai or ChatGPT on the web) additionally
+routes through an encrypted relay. Details: https://local-mcp.com/en/privacy
 
 ---
 
 ## Requirements
 
-- macOS 13 Ventura or later
-- Apple Silicon or Intel
+- macOS 13 Ventura or later (Apple Silicon or Intel), or Windows 10 or later
 - Node.js 18+
 
 ---
