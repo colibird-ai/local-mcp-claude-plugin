@@ -10,20 +10,20 @@
 
 ## Install
 
-**Option 1 — Claude Code plugin:**
+**Option 1 — One command** (run it in your terminal, not inside Claude Code):
 
-```
-/mcp add local-mcp
+```bash
+claude mcp add local-mcp -- npx -y local-mcp@latest
 ```
 
-**Option 2 — Manual config** (`.claude/mcp.json` or `~/.claude.json`):
+**Option 2 — Manual config** (`.mcp.json` in your project, or `~/.claude.json` for every project):
 
 ```json
 {
   "mcpServers": {
     "local-mcp": {
       "command": "npx",
-      "args": ["-y", "local-mcp@latest", "stdio"]
+      "args": ["-y", "local-mcp@latest"]
     }
   }
 }
