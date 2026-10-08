@@ -10,13 +10,32 @@
 
 ## Install
 
-**Option 1 — One command** (run it in your terminal, not inside Claude Code):
+LMCP runs on your computer, so install the LMCP app first: download it from
+[local-mcp.com/download](https://www.local-mcp.com/download?ref=claude-plugin) (macOS 13+ or Windows 10+).
+
+**Option 1: Claude Code plugin** (run these inside Claude Code):
+
+```
+/plugin marketplace add colibird-ai/local-mcp-claude-plugin
+/plugin install local-mcp@local-mcp
+```
+
+From a terminal, the same thing:
+
+```bash
+claude plugin marketplace add colibird-ai/local-mcp-claude-plugin
+claude plugin install local-mcp@local-mcp
+```
+
+Restart Claude Code after installing; MCP tools load at startup.
+
+**Option 2: One command** (run it in your terminal, not inside Claude Code):
 
 ```bash
 claude mcp add local-mcp -- npx -y local-mcp@latest
 ```
 
-**Option 2 — Manual config** (`.mcp.json` in your project, or `~/.claude.json` for every project):
+**Option 3: Manual config** (`.mcp.json` in your project, or `~/.claude.json` for every project):
 
 ```json
 {
@@ -29,11 +48,23 @@ claude mcp add local-mcp -- npx -y local-mcp@latest
 }
 ```
 
-**Option 3 — Full setup** (also configures Cursor, Windsurf, VS Code):
+**Option 4: Full setup** (also configures Cursor, Windsurf, VS Code):
 
 ```bash
 curl -fsSL https://local-mcp.com/install | bash
 ```
+
+### Other AI tools
+
+The plugin also installs through GitHub Copilot CLI:
+
+```bash
+copilot plugin marketplace add colibird-ai/local-mcp-claude-plugin
+copilot plugin install local-mcp@local-mcp
+```
+
+Codex, Gemini CLI, Cursor and more: see
+[Install LMCP in your AI tool](https://github.com/colibird-ai/local-mcp-releases#install-lmcp-in-your-ai-tool).
 
 ---
 
