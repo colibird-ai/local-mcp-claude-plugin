@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "local-mcp",
-  "description": "LMCP for Claude Code: MCP tools for your Mac or Windows PC apps (Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Office and more).",
+  "description": "LMCP for Claude Code: MCP tools for your Mac or Windows PC apps (Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Notion, Office and more).",
   "owner": {
     "name": "LMCP",
     "email": "support@local-mcp.com"

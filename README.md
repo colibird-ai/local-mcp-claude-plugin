@@ -4,7 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
 [![platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-blue)](https://local-mcp.com)
-[![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
+[![smithery badge](https://smithery.ai/badge/colibird-ai/local-mcp)](https://smithery.ai/servers/colibird-ai/local-mcp)
 
 ---
 
@@ -93,8 +93,8 @@ Codex, Gemini CLI, Cursor and more: see
 | **Google Drive** | List, read, write, search files |
 | **Notion** | Search, read, list pages and databases |
 
-192+ tools on macOS. Windows has a subset: the Apple-native ones (Mail, Calendar, Contacts,
-Reminders, Notes, Messages, Finder, Safari, OmniFocus) exist only on macOS.
+Availability varies by platform. Windows has a subset: the Apple-native ones (Mail, Calendar,
+Contacts, Reminders, Notes, Messages, Finder, Safari, OmniFocus) exist only on macOS.
 
 ---
 
@@ -144,7 +144,7 @@ routes through an encrypted relay. Details: https://local-mcp.com/en/privacy
 
 - [Website](https://local-mcp.com?utm_source=claude-plugin)
 - [npm](https://www.npmjs.com/package/local-mcp)
-- [Smithery listing](https://smithery.ai/server/@lanchuske/local-mcp)
+- [Smithery listing](https://smithery.ai/servers/colibird-ai/local-mcp)
 - Support: support@local-mcp.com
 
 ## 📬 Stay Updated
