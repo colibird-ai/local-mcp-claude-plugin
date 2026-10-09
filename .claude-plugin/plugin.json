@@ -1,13 +1,18 @@
 {
   "name": "local-mcp",
+  "displayName": "LMCP",
   "description": "Connect Claude Code to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion and more on your Mac or Windows PC through LMCP, a local MCP server. Tools run on your computer; no API keys to manage.",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "author": {
     "name": "LMCP",
     "email": "support@local-mcp.com"
   },
   "homepage": "https://local-mcp.com",
   "repository": "https://github.com/colibird-ai/local-mcp-claude-plugin",
+  "documentationUrl": "https://github.com/colibird-ai/local-mcp-releases#readme",
+  "supportUrl": "mailto:support@local-mcp.com",
+  "privacyPolicyUrl": "https://www.local-mcp.com/en/privacy",
+  "termsOfServiceUrl": "https://www.local-mcp.com/en/terms",
   "license": "MIT",
   "keywords": [
     "mcp",
