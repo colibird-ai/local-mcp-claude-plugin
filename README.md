@@ -1,6 +1,6 @@
 # LMCP — Claude Code Plugin
 
-> Give Claude Code native access to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion, Notes, OmniFocus and more — 192+ tools that run on your computer.
+> Give Claude Code native access to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion, Notes, OmniFocus and more, with tools that run on your computer.
 
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
 [![platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-blue)](https://local-mcp.com)

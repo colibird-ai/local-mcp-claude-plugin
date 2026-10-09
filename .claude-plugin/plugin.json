@@ -1,7 +1,7 @@
 {
   "name": "local-mcp",
-  "description": "Connect Claude Code to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion and more on your Mac or Windows PC through LMCP, a local MCP server with 192+ tools. Tools run on your computer; no API keys to manage.",
-  "version": "1.2.0",
+  "description": "Connect Claude Code to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion and more on your Mac or Windows PC through LMCP, a local MCP server. Tools run on your computer; no API keys to manage.",
+  "version": "1.3.0",
   "author": {
     "name": "LMCP",
     "email": "support@local-mcp.com"
