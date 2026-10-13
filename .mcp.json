@@ -1,6 +1,6 @@
 {
   "local-mcp": {
     "command": "npx",
-    "args": ["-y", "local-mcp@3.0.420"]
+    "args": ["-y", "local-mcp@3.0.421"]
   }
 }
