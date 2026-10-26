@@ -29,26 +29,23 @@ claude plugin install local-mcp@local-mcp
 
 Restart Claude Code after installing; MCP tools load at startup.
 
-**Option 2: One command** (run it in your terminal, not inside Claude Code):
-
-```bash
-claude mcp add local-mcp -- npx -y local-mcp@latest
-```
-
-**Option 3: Manual config** (`.mcp.json` in your project, or `~/.claude.json` for every project):
+**Option 2: Manual config** (`.mcp.json` in your project, or `~/.claude.json` for every project).
+Point Claude Code at the LMCP server the app installed. On macOS:
 
 ```json
 {
   "mcpServers": {
     "local-mcp": {
-      "command": "npx",
-      "args": ["-y", "local-mcp@latest"]
+      "command": "/Users/YOU/.local/share/local-mcp/bin/local-mcp-server",
+      "args": ["stdio"]
     }
   }
 }
 ```
 
-**Option 4: Full setup** (also configures Cursor, Windsurf, VS Code):
+On Windows, use `"command": "C:\\Users\\YOU\\AppData\\Local\\local-mcp\\bin\\lmcp-server.exe"` with `"args": []`.
+
+**Option 3: Full setup** (also configures Cursor, Windsurf, VS Code):
 
 ```bash
 curl -fsSL https://local-mcp.com/install | bash
@@ -136,7 +133,8 @@ routes through an encrypted relay. Details: https://local-mcp.com/en/privacy
 ## Requirements
 
 - macOS 13 Ventura or later (Apple Silicon or Intel), or Windows 10 or later
-- Node.js 18+
+- The LMCP app installed ([download](https://www.local-mcp.com/download?ref=claude-plugin)); the plugin starts the LMCP server it installs and downloads nothing
+- Node.js 18+ on your PATH (the plugin's launcher runs with `node`)
 
 ---
 
