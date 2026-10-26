@@ -66,8 +66,8 @@ Codex, Gemini CLI, Cursor and more: see
 | **Mail** | Read, search, send, reply, move emails · Save attachments · Multiple accounts |
 | **Calendar** | List, create, delete events · Multi-account (iCloud, Google, Exchange) |
 | **Contacts** | Search and list from Contacts.app |
-| **Microsoft Teams** | Read chats and channels · No tokens or OAuth needed |
-| **Slack** | List workspaces/channels · Read and search messages · No tokens needed (IndexedDB cache) |
+| **Microsoft Teams** | Read chats and channels from the desktop app |
+| **Slack** | List workspaces/channels · Read and search messages from the desktop app |
 | **WhatsApp** | List chats · Read/search messages · Send text + files *(via the unofficial Wacli client — requires QR-code sign-in; accounts may be restricted for ToS violations)* |
 | **OneDrive** | List, read, write, move, delete, search files |
 | **Microsoft Outlook** | Read, search, send emails · List and create calendar events |
@@ -117,7 +117,7 @@ Create a new Apple Note with a summary of what we discussed today
 
 ## Privacy
 
-Tools run on your computer, and there are no API keys or tokens to manage. LMCP does not make
+Tools run on your computer, with nothing extra to set up. LMCP does not make
 your AI provider local: the assistant you use receives the content you ask it to read, under its
 own terms. Connecting a browser-based assistant (claude.ai or ChatGPT on the web) additionally
 routes through an encrypted relay. Details: https://local-mcp.com/en/privacy
