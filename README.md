@@ -8,12 +8,21 @@
 
 ---
 
+## What this plugin is
+
+This plugin brings LMCP's skills to Claude Code: instructions that help Claude use LMCP's tools for
+email, calendar, files, team chat, messages, daily briefs and more. It contains skills only: no MCP
+server configuration and no executables.
+
+The tools themselves come from LMCP, which runs on your computer. Install it from
+[local-mcp.com/download](https://www.local-mcp.com/download?ref=claude-plugin) (macOS 13+ or Windows 10+);
+the installer configures Claude Code for you by adding the `local-mcp` MCP server.
+
 ## Install
 
-LMCP runs on your computer, so install the LMCP app first: download it from
-[local-mcp.com/download](https://www.local-mcp.com/download?ref=claude-plugin) (macOS 13+ or Windows 10+).
+**1. Install LMCP** from [local-mcp.com/download](https://www.local-mcp.com/download?ref=claude-plugin).
 
-**Option 1: Claude Code plugin** (run these inside Claude Code):
+**2. Add the skills** (run these inside Claude Code):
 
 ```
 /plugin marketplace add colibird-ai/local-mcp-claude-plugin
@@ -27,29 +36,14 @@ claude plugin marketplace add colibird-ai/local-mcp-claude-plugin
 claude plugin install local-mcp@local-mcp
 ```
 
-Restart Claude Code after installing; MCP tools load at startup.
+The LMCP installer adds the `local-mcp` server to Claude Code; after installing LMCP, `claude mcp list`
+shows it.
 
-**Option 2: Manual config** (`.mcp.json` in your project, or `~/.claude.json` for every project).
-Point Claude Code at the LMCP server the app installed. On macOS:
+### Without the LMCP app
 
-```json
-{
-  "mcpServers": {
-    "local-mcp": {
-      "command": "/Users/YOU/.local/share/local-mcp/bin/local-mcp-server",
-      "args": ["stdio"]
-    }
-  }
-}
-```
-
-On Windows, use `"command": "C:\\Users\\YOU\\AppData\\Local\\local-mcp\\bin\\lmcp-server.exe"` with `"args": []`.
-
-**Option 3: Full setup** (also configures Cursor, Windsurf, VS Code):
-
-```bash
-curl -fsSL https://local-mcp.com/install | bash
-```
+If you run LMCP's server from npm instead of the app, add it to Claude Code yourself with
+`claude mcp add`, as described in
+[Connect Claude Code to your Mac apps](https://www.local-mcp.com/guides/claude-code-codex-mac).
 
 ### Other AI tools
 
@@ -65,7 +59,7 @@ Codex, Gemini CLI, Cursor and more: see
 
 ---
 
-## What Claude Code can access
+## What Claude Code can access through LMCP
 
 | Service | Tools |
 |---------|-------|
@@ -133,8 +127,8 @@ routes through an encrypted relay. Details: https://local-mcp.com/en/privacy
 ## Requirements
 
 - macOS 13 Ventura or later (Apple Silicon or Intel), or Windows 10 or later
-- The LMCP app installed ([download](https://www.local-mcp.com/download?ref=claude-plugin)); the plugin starts the LMCP server it installs and downloads nothing
-- Node.js 18+ on your PATH (the plugin's launcher runs with `node`)
+- LMCP installed ([download](https://www.local-mcp.com/download?ref=claude-plugin)), or its server added
+  with `claude mcp add` ([guide](https://www.local-mcp.com/guides/claude-code-codex-mac))
 
 ---
 
