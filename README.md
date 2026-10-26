@@ -36,17 +36,14 @@ claude plugin marketplace add colibird-ai/local-mcp-claude-plugin
 claude plugin install local-mcp@local-mcp
 ```
 
-Run `claude mcp list` to check that `local-mcp` is connected.
+The LMCP installer adds the `local-mcp` server to Claude Code; after installing LMCP, `claude mcp list`
+shows it.
 
-### Without the LMCP app (npx only)
+### Without the LMCP app
 
-If you run LMCP's server through npm instead of the app, add it to Claude Code yourself:
-
-```bash
-claude mcp add --env LMCP_ORIGIN=manual --transport stdio --scope user local-mcp -- npx -y local-mcp@latest
-```
-
-Keep `--scope user`: without it Claude Code saves the server for the current project only.
+If you run LMCP's server from npm instead of the app, add it to Claude Code yourself with
+`claude mcp add`, as described in
+[Connect Claude Code to your Mac apps](https://www.local-mcp.com/guides/claude-code-codex-mac).
 
 ### Other AI tools
 
@@ -131,7 +128,7 @@ routes through an encrypted relay. Details: https://local-mcp.com/en/privacy
 
 - macOS 13 Ventura or later (Apple Silicon or Intel), or Windows 10 or later
 - LMCP installed ([download](https://www.local-mcp.com/download?ref=claude-plugin)), or its server added
-  with `claude mcp add` as shown above
+  with `claude mcp add` ([guide](https://www.local-mcp.com/guides/claude-code-codex-mac))
 
 ---
 
