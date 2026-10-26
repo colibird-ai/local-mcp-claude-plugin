@@ -6,7 +6,7 @@ description: Use when the user wants to read or search Microsoft Teams or Slack 
 # Teams & Slack via LMCP
 
 LMCP reads the Microsoft Teams and Slack desktop apps' local data on the user's computer (macOS and
-Windows), so reading needs no Slack token. Sending to Teams is different: `teams_send_channel_message`
+Windows), so reading needs no extra setup. Sending to Teams is different: `teams_send_channel_message`
 (and `teams_send_message` on Windows) goes through Microsoft Graph and needs `connect_m365_account`.
 
 ## Core tools
