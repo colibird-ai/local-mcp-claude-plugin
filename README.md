@@ -117,7 +117,7 @@ Create a new Apple Note with a summary of what we discussed today
 
 ## Privacy
 
-Tools run on your computer, with nothing extra to set up. LMCP does not make
+Tools run on your computer. LMCP does not make
 your AI provider local: the assistant you use receives the content you ask it to read, under its
 own terms. Connecting a browser-based assistant (claude.ai or ChatGPT on the web) additionally
 routes through an encrypted relay. Details: https://local-mcp.com/en/privacy
