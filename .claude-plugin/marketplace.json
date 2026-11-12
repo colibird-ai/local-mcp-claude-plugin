@@ -1,19 +1,19 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "local-mcp",
-  "description": "LMCP for Claude Code: skills for working with your Mac or Windows PC apps (Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Office and more) through LMCP.",
+  "description": "Colibird for Claude Code: skills for working with your Mac or Windows PC apps (Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Office and more) through Colibird's LMCP app.",
   "owner": {
-    "name": "LMCP",
+    "name": "Colibird",
     "email": "support@local-mcp.com"
   },
   "plugins": [
     {
       "name": "local-mcp",
       "source": "./",
-      "description": "Skills that help Claude Code use LMCP with Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, files and more on your Mac or Windows PC. LMCP itself comes from the LMCP installer, which configures Claude Code.",
+      "description": "Skills that help Claude Code use Colibird's LMCP app with Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, files and more on your Mac or Windows PC. The LMCP app comes from the LMCP installer, which configures Claude Code.",
       "version": "1.3.9",
       "author": {
-        "name": "LMCP",
+        "name": "Colibird",
         "email": "support@local-mcp.com"
       },
       "homepage": "https://local-mcp.com",
