@@ -2,14 +2,13 @@
   "name": "local-mcp",
   "displayName": "Colibird",
   "description": "Skills that help Claude Code use Colibird's LMCP app with Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, files and more on your Mac or Windows PC. The LMCP app comes from the LMCP installer, which configures Claude Code.",
-  "version": "1.3.14",
+  "version": "1.3.15",
   "author": {
     "name": "Colibird",
     "email": "support@local-mcp.com"
   },
   "homepage": "https://local-mcp.com",
   "repository": "https://github.com/colibird-ai/local-mcp-claude-plugin",
-  "icon": "./.claude-plugin/icon.png",
   "documentationUrl": "https://github.com/colibird-ai/local-mcp-releases#readme",
   "supportUrl": "https://www.local-mcp.com/help",
   "privacyPolicyUrl": "https://www.local-mcp.com/en/privacy",
