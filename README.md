@@ -15,7 +15,7 @@ tools well.
 
 - **Runs:** nothing. It has no code, no MCP server configuration, no hooks and no scripts.
 - **Sends:** nothing. It sends no data to any server, ours or anyone else's.
-- **Reads:** nothing on your computer. It reads no files, no credentials and no environment variables.
+- **Reads:** nothing on your computer.
 
 Access to your apps is done by the LMCP app, which you install separately and which asks for its own
 permissions and your consent. What LMCP handles and how: [Privacy Policy](https://www.local-mcp.com/en/privacy).
