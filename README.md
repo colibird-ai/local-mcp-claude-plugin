@@ -1,24 +1,10 @@
-# Colibird — Claude Code Plugin
+# LMCP — Claude Code Plugin
 
-> Colibird's plugin gives Claude Code native access to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion, Notes, OmniFocus and more, with tools that run on your computer. The app you install is called LMCP.
+> Give Claude Code native access to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion, Notes, OmniFocus and more, with tools that run on your computer.
 
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
 [![platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-blue)](https://local-mcp.com)
 [![smithery badge](https://smithery.ai/badge/colibird-ai/local-mcp)](https://smithery.ai/servers/colibird-ai/local-mcp)
-
----
-
-## What this plugin runs, sends and reads
-
-This plugin contains only skills: instructions written in markdown that tell Claude how to use LMCP's
-tools well.
-
-- **Runs:** nothing. It has no code, no MCP server configuration, no hooks and no scripts.
-- **Sends:** nothing. It sends no data to any server, ours or anyone else's.
-- **Reads:** nothing on your computer.
-
-Access to your apps is done by the LMCP app, which you install separately and which asks for its own
-permissions and your consent. What LMCP handles and how: [Privacy Policy](https://www.local-mcp.com/en/privacy).
 
 ---
 
